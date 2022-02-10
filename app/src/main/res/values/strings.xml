@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Master-Detail</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="delete_version_title">Удаление записи</string>
+    <string name="delete_version_description">Действительно хотите удалить запись \"</string>
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+</resources>

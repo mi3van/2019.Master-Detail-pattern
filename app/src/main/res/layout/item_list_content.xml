@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:id="@+id/item_background_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/views_def_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <ToggleButton
+            android:id="@+id/favoriteBtn"
+            android:layout_width="@dimen/icon_medium_size"
+            android:layout_height="@dimen/icon_medium_size"
+            android:background="@drawable/toggle_favourite"
+            android:layout_margin="@dimen/views_def_margin"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

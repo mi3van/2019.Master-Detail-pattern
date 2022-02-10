@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">300dp</dimen>
+    <dimen name="views_def_margin">16dp</dimen>
+    <dimen name="icon_medium_size">24dp</dimen>
+</resources>
